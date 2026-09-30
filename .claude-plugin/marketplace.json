@@ -10,8 +10,8 @@
   },
   "plugins": [
     {
-      "name": "sendit",
-      "source": "./",
+      "name": "sendit-social",
+      "source": "./plugins/sendit",
       "description": "Social publishing, scheduling, media upload, previews, and analytics with SendIt.",
       "version": "1.0.0",
       "author": {

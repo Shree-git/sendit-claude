@@ -6,12 +6,12 @@ Install from the public SendIt marketplace:
 
 ```text
 /plugin marketplace add Shree-git/sendit-claude
-/plugin install sendit@sendit-plugins
+/plugin install sendit-social@sendit-plugins
 ```
 
 Restart Claude Code after installation if the plugin is not loaded yet.
 Run `/mcp`, select the SendIt server, and complete the browser OAuth flow when prompted.
-Then run `/sendit:sendit` or ask Claude to list your connected SendIt accounts.
+Then run `/sendit-social:sendit` or ask Claude to list your connected SendIt accounts.
 
 ## Claude Code connector only
 

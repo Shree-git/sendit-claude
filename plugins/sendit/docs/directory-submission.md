@@ -19,16 +19,17 @@ This package is immediately installable from the public `sendit-plugins` marketp
 | Field | Value |
 | --- | --- |
 | Repository | `Shree-git/sendit-claude` |
-| Plugin path | Repository root |
+| Plugin path | `plugins/sendit` |
 | Tracked branch | `main` |
-| Plugin name | `sendit` |
-| Display name | SendIt |
+| Plugin name | `sendit-social` |
+| Display name | SendIt Social |
 | Version | `1.0.0` |
 | License | MIT |
 | Publisher | InfiniteApps LLC |
 
 The package contains one workflow skill and one remote HTTP MCP definition.
 It contains no executable hooks, local package launchers, or credential files.
+Tests and their dependencies live outside the plugin directory and are not distributed in its ZIP.
 
 ## Connector listing material
 

@@ -4,7 +4,7 @@ import test from 'node:test';
 import { Client } from '@modelcontextprotocol/sdk/client/index.js';
 import { StreamableHTTPClientTransport } from '@modelcontextprotocol/sdk/client/streamableHttp.js';
 
-const config = JSON.parse(await readFile(new URL('../.mcp.json', import.meta.url), 'utf8'));
+const config = JSON.parse(await readFile(new URL('../plugins/sendit/.mcp.json', import.meta.url), 'utf8'));
 const endpoint = new URL(config.mcpServers.sendit.url);
 const expectedTools = [
   'list_connected_accounts', 'list_teams', 'connect_platform',
