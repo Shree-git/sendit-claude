@@ -1,0 +1,14 @@
+{
+  "name": "sendit",
+  "displayName": "SendIt",
+  "version": "1.0.0",
+  "description": "Publish and schedule social posts with SendIt. Connect accounts, upload media, validate content, preview posts, and check analytics through OAuth MCP.",
+  "author": {
+    "name": "Infinite Apps AI",
+    "url": "https://sendit.infiniteappsai.com"
+  },
+  "homepage": "https://github.com/Shree-git/sendit-claude",
+  "repository": "https://github.com/Shree-git/sendit-claude",
+  "license": "MIT",
+  "keywords": ["sendit", "social-media", "publishing", "scheduling", "mcp", "oauth"]
+}

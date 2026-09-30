@@ -1,0 +1,24 @@
+name: Validate SendIt Claude plugin
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "22"
+      - name: Validate plugin
+        run: npx --yes --package=@anthropic-ai/claude-code@2.1.285 claude plugin validate --strict .claude-plugin/plugin.json
+      - name: Validate marketplace
+        run: npx --yes --package=@anthropic-ai/claude-code@2.1.285 claude plugin validate --strict .claude-plugin/marketplace.json
+      - name: Check remote MCP contract
+        run: npm ci && npm test

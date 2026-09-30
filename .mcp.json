@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "sendit": {
+      "type": "http",
+      "url": "https://sendit.infiniteappsai.com/api/mcp/claude"
+    }
+  }
+}
